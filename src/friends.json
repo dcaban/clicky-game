@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "SpongeBob",
+    "image": "https://images.pexels.com/photos/5891/bed-design-decoration-interior.jpg?h=350&auto=compress&cs=tinysrgb",
+    "occupation": "Fry Cook",
+    "location": "A Pineapple Under the Sea"
+  },
+  {
+    "id": 2,
+    "name": "Mr. Krabs",
+    "image": "https://res.cloudinary.com/twenty20/private_images/t_watermark-criss-cross-10/v1450144096000/photosp/f0475857-c2b7-483a-8d9a-77af2fccbf95/stock-photo-water-park-forest-travel-mountain-california-trees-creek-forests-f0475857-c2b7-483a-8d9a-77af2fccbf95.jpg",
+    "occupation": "Restaurant Owner",
+    "location": "A Giant Anchor"
+  },
+  {
+    "id": 3,
+    "name": "Squidward",
+    "image": "https://images.pexels.com/photos/220032/pexels-photo-220032.jpeg?h=350&auto=compress&cs=tinysrgb",
+    "occupation": "Cashier",
+    "location": "An Easter Island Head"
+  },
+  {
+    "id": 4,
+    "name": "Dexter",
+    "image": "https://images.pexels.com/photos/33688/delicate-arch-night-stars-landscape.jpg?h=350&auto=compress&cs=tinysrgb",
+    "occupation": "Boy Genius",
+    "location": "A Secret Laboratory"
+  },
+  {
+    "id": 5,
+    "name": "Courage",
+    "image": "https://images.pexels.com/photos/394545/pexels-photo-394545.jpeg?h=350&auto=compress&cs=tinysrgb",
+    "occupation": "A Cowardly Dog",
+    "location": "Nowhere, Kansas"
+  },
+  {
+    "id": 6,
+    "name": "Doug Funnie",
+    "image": "https://images.pexels.com/photos/33041/antelope-canyon-lower-canyon-arizona.jpg?h=350&auto=compress&cs=tinysrgb",
+    "occupation": "Student",
+    "location": "Bluffington"
+  },
+  {
+    "id": 7,
+    "name": "Bugs Bunny",
+    "image": "https://images.pexels.com/photos/533881/pexels-photo-533881.jpeg?h=350&auto=compress&cs=tinysrgb",
+    "occupation": "Looney Toon",
+    "location": "A Rabbit Burrow"
+  },
+  {
+    "id": 8,
+    "name": "Johnny Bravo",
+    "image": "https://images.pexels.com/photos/64254/crocodile-alligator-dangerous-reptile-64254.jpeg?h=350&auto=compress&cs=tinysrgb",
+    "occupation": "Ladies Man",
+    "location": "Aron City"
+  },
+  {
+    "id": 9,
+    "name": "Tommy Pickles",
+    "image": "https://images.pexels.com/photos/300849/pexels-photo-300849.jpeg?h=350&auto=compress&cs=tinysrgb",
+    "occupation": "Adventurer",
+    "location": "California"
+  },
+  {
+    "id": 10,
+    "name": "Rocko",
+    "image": "https://images.pexels.com/photos/733162/pexels-photo-733162.jpeg?h=350&auto=compress&cs=tinysrgb",
+    "occupation": "Cashier",
+    "location": "O-Town, California"
+  },
+  {
+    "id": 11,
+    "name": "Captain Planet",
+    "image": "https://images.pexels.com/photos/66100/pexels-photo-66100.jpeg?h=350&auto=compress&cs=tinysrgb",
+    "occupation": "Superhero",
+    "location": "Earth"
+  },
+  {
+    "id": 12,
+    "name": "Ickis",
+    "image": "https://colorado.ourcommunitynow.com/wp-content/uploads/2016/10/goats.jpg",
+    "occupation": "Ahhhh! A Real Monster!",
+    "location": "Under a City Dump"
+  }
+]
