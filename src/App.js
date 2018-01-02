@@ -15,7 +15,7 @@ class App extends Component {
 
     // Filter this.state.friends for friends with an id not equal to the id being removed
 
-    let friends = this.state.friends.sort(friend =>{.5-Math.random()});
+    let friends = this.state.friends.sort(friend => (5-Math.random()));
     // Set this.state.friends equal to the new friends array
     this.setState({ friends});
 
