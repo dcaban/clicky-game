@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import FriendCard from "./components/FriendCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
+
+import Mountains from "./components/Mountains";
 import friends from "./friends.json";
 import "./App.css";
 
@@ -23,21 +25,23 @@ class App extends Component {
 
 
   };
-    // var fruits = [1, 2, 3, 4, 5 ,6];
-    // fruits.sort(function(){return .5-Math.random();});
-    // document.write(fruits , ".......");
-    //
-    //
-    // fruits.sort(function(){return .5-Math.random();});
-    // document.write(fruits, ".......");
-    //
-    // fruits.sort(function(){return .5-Math.random();});
-    // document.write(fruits, ".......");
+
   // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
     return (
       <Wrapper>
-        <Title>National Park Memory Game</Title>
+
+
+
+        <Title>
+            National Park Memory Game
+        </Title>
+
+
+
+          <div className=" container ">
+              <div className="row">
+                  <div className=" cards center-align ">
         {this.state.friends.map(friend => (
           <FriendCard
             alreadyPlayed={this.alreadyPlayed}
@@ -46,7 +50,18 @@ class App extends Component {
             image={friend.image}
           />
         ))}
+                  </div>
+          </div>
+          </div>
+        <Mountains>
+        </Mountains>
+
+
+
       </Wrapper>
+
+
+
     );
   }
 }

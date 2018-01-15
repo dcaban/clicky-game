@@ -2,4 +2,216 @@
   width: 100%;
   text-align: center;
   margin-bottom: 50px;
+  color: whitesmoke;
+}
+.card {
+  z-index: 5!important;
+
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+  60% {
+    transform: translateX(-80%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  50% {
+    transform: translateX(100%);
+  }
+  60% {
+    transform: translateX(80%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+
+  }
+  100% {
+    transform: translateY(0);
+    transform: scaleX(1.7);
+  }
+}
+@keyframes slideInFromLeftToRight {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0.0;
+  }
+  77%{
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+@keyframes slideInFromRightToLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  55%{
+      opacity: 0.1;
+    }
+  100% {
+    transform: translateX(-100%);
+    opacity: 0.0;
+  }
+}
+
+
+
+#mountain1 {
+  background-image: url("/mountain_PNG18.png");
+  height: 700px;
+  width:100%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  -webkit-transform: scaleX(1.7);
+  transform: scaleX(1.7);
+  animation: 4s ease 0s 1 slideInFromBottom;
+  z-index: 0;
+}
+
+#mountain2 {
+  content: '';
+  display: block;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 400px;
+  background: url("/mountain_PNG18.png");
+  background-repeat: no-repeat;
+  -webkit-transform: scaleX(1.7);
+  transform: scaleX(1.7);
+  opacity: 0.3;
+  animation: 3s ease 0s 1 slideInFromBottom;
+  z-index: 0;
+
+}
+
+#mountain3 {
+  content: '';
+  display: block;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 520px;
+  background: url("/mountain_PNG18.png");
+  background-repeat: no-repeat;
+  animation: 2s ease-out 0s 1 slideInFromRight;
+
+  opacity: 0.2;
+  z-index: 0;
+
+}
+
+#mountain4 {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 520px;
+  background: url("/mountain_PNG18.png");
+  background-repeat: no-repeat;
+  animation: 2s ease-out 0s 1 slideInFromLeft;
+
+  opacity: .2;
+  z-index: 0;
+
+}
+#mountain5 {
+  content: '';
+  display: block;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 500px;
+  background: url("/mountain_PNG18.png");
+  background-repeat: no-repeat;
+  animation: 150s ease 0s infinite slideInFromLeftToRight;
+
+  opacity: 0.6;
+  z-index: 0;
+
+}
+#mountain6 {
+  content: '';
+  display: block;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 460px;
+  background: url("/mountain_PNG18.png");
+  background-repeat: no-repeat;
+  animation: 150s ease 0s infinite slideInFromRightToLeft;
+
+  opacity: 0.6;
+  z-index: 0;
+
+}
+
+
+@keyframes fadeFromNothing {
+   0% {
+     opacity: 0.0;
+
+
+   }
+
+
+   100% {
+     opacity: 1.0;
+
+   }
+ }
+@keyframes fadeFromSomething {
+  0% {
+    max-height: 0;
+    max-width: 0;
+
+
+  }
+
+
+  100% {
+    height: 100%;
+    width: 100%;
+
+  }
+}
+
+
+/*.cards{*/
+
+  /*!*animation: 8s ease 4s 1 fadeFromNothing;*!*/
+  /*animation: 4s ease-out 0s 1 fadeFromSomething;*/
+
+
+/*}*/
+
+
+.container{
+  animation: 4s ease-out 0s 1 fadeFromSomething;
+
+  min-height: 1000px;
+  top: -80px;
+  margin-bottom: 200px;
+  margin-top: 80px;
 }
