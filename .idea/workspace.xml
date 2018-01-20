@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d209153-edf5-4547-a7c7-4de63f1c17fb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/already/index.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="$PROJECT_DIR$/public/Yosemite.jpg" afterPath="$PROJECT_DIR$/public/Yosemite.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/glacier.jpg" afterPath="$PROJECT_DIR$/public/glacier.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/rainier.jpg" afterPath="$PROJECT_DIR$/public/rainier.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/smokey.jpg" afterPath="$PROJECT_DIR$/public/smokey.jpg" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" afterPath="$PROJECT_DIR$/src/App.css" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/FriendCard/FriendCard.js" afterPath="$PROJECT_DIR$/src/components/FriendCard/FriendCard.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/Title/Title.js" afterPath="$PROJECT_DIR$/src/components/Title/Title.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,8 +32,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -276,45 +267,6 @@
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="clicky-game" type="cbb8eebc:String" user="clicky-game" />
             </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="clicky-game" type="cbb8eebc:String" user="clicky-game" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="clicky-game" type="cbb8eebc:String" user="clicky-game" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="components" type="cbb8eebc:String" user="components" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="clicky-game" type="cbb8eebc:String" user="clicky-game" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="components" type="cbb8eebc:String" user="components" />
-              <item name="Already" type="cbb8eebc:String" user="Already" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="clicky-game" type="cbb8eebc:String" user="clicky-game" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="components" type="cbb8eebc:String" user="components" />
-              <item name="FriendCard" type="cbb8eebc:String" user="FriendCard" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="clicky-game" type="cbb8eebc:String" user="clicky-game" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="components" type="cbb8eebc:String" user="components" />
-              <item name="Title" type="cbb8eebc:String" user="Title" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="clicky-game" type="cbb8eebc:String" user="clicky-game" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="components" type="cbb8eebc:String" user="components" />
-              <item name="Wrapper" type="cbb8eebc:String" user="Wrapper" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -506,12 +458,12 @@
       <workItem from="1516081036989" duration="358000" />
       <workItem from="1516130597435" duration="628000" />
       <workItem from="1516322248660" duration="561000" />
-      <workItem from="1516456158717" duration="10417000" />
+      <workItem from="1516456158717" duration="10837000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71351000" />
+    <option name="totallyTimeSpent" value="71771000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="23" width="1280" height="1025" extended-state="0" />
@@ -871,8 +823,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
